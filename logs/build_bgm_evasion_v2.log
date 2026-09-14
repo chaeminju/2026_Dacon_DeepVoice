@@ -1,0 +1,26 @@
+voice(real) pool=2303, music pool=1984
+  mixed 50/500
+  mixed 100/500
+  mixed 150/500
+  mixed 200/500
+  mixed 250/500
+  mixed 300/500
+  mixed 350/500
+  mixed 400/500
+  mixed 450/500
+  mixed 500/500
+  music_only(instrumental) 50/500
+  music_only(instrumental) 100/500
+  music_only(instrumental) 150/500
+  music_only(instrumental) 200/500
+  music_only(instrumental) 250/500
+  music_only(instrumental) 300/500
+  music_only(instrumental) 350/500
+  music_only(instrumental) 400/500
+  music_only(instrumental) 450/500
+  music_only(instrumental) 500/500
+load_metadata: 7220개 레코드 로드 (manifests/case_metadata_train.jsonl)
+save_metadata: 8070개 레코드 저장 -> manifests/case_metadata_train.jsonl
+load_metadata: 1990개 레코드 로드 (manifests/case_metadata_val.jsonl)
+save_metadata: 2140개 레코드 저장 -> manifests/case_metadata_val.jsonl
+I_bgm_evasion: mixed=500, music_only=500 -> manifests/case_metadata_train.jsonl / manifests/case_metadata_val.jsonl에 병합됨

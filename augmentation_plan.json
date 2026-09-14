@@ -1,0 +1,20 @@
+{
+  "H_hybrid_composed__music": {
+    "current": 3059,
+    "target": 3671,
+    "need": 612,
+    "recommended_dataset": "FakeMusicCaps+MLAAD/ASVspoof 직접 믹싱"
+  },
+  "D_partial_splice": {
+    "current": 2326,
+    "target": 2792,
+    "need": 466,
+    "recommended_dataset": "PartialSpoof, HAD"
+  },
+  "I_bgm_evasion": {
+    "current": 510,
+    "target": 612,
+    "need": 102,
+    "recommended_dataset": "real 음성에 배경음악을 인위적으로 믹싱해 자체 제작"
+  }
+}

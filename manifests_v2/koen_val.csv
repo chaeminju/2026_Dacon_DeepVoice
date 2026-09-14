@@ -1,0 +1,221 @@
+path,lang,label,technique,system_id,speaker_id,source,text,augmentation
+data/processed/en_augmented/LA_T_5014965_aug.wav,en,bonafide,real,-,LA_0091,asvspoof2019la,,rawboost+codec
+data/processed/en_mlaad_augmented/wives_and_daughters_25_f000143_aug.wav,en,spoof,tts,ElevenLabs-Turbo-v2.5,-,mlaad,,rawboost+codec
+data/processed/ko_augmented/kss_00466_aug.wav,ko,bonafide,real,-,kss_speaker,kss,"아무한테도 이야기하지 마, 알았지?",none
+data/processed/ko_augmented/zeroth_109_003_1655_aug.wav,ko,bonafide,real,-,zeroth_109,zeroth_korean,정권 초기 성장률 끌어올리기에 집착한 나머지 리스크 관리에 소홀했다는 지적이 나온다,rawboost
+data/processed/ko_augmented/zeroth_208_003_2199_aug.wav,ko,bonafide,real,-,zeroth_208,zeroth_korean,미국과 그 동맹국들의 이슬람사회 침략으로 출발한 중동 쪽 전쟁들이 이천 십 육 년에는 이슬람 대 이슬람 전쟁으로 번질 수도 있다는 뜻이다,rawboost+codec
+data/processed/en_mlaad_augmented/jane_eyre_24_f000361_aug.wav,en,spoof,tts,kokoro,-,mlaad,,none
+data/processed/en_augmented/LA_T_2824772_aug.wav,en,bonafide,real,-,LA_0083,asvspoof2019la,,codec
+data/processed/en_mlaad_augmented/poisoned_pen_12_f000377_aug.wav,en,spoof,tts,ElevenLabs-v3,-,mlaad,,codec
+data/processed/ko_augmented/zeroth_114_003_1619_aug.wav,ko,bonafide,real,-,zeroth_114,zeroth_korean,김 대표는 그러면서 정부와 한국은행은 면밀한 진단과 정확한 예측을 통해 경제의 방향성을 잘 잡아야 한다고 주문했다,rawboost
+data/processed/ko_mlaad_augmented/northandsouth_36_f000161_aug.wav,ko,spoof,tts,minimax_speech-02-turbo,-,mlaad,,rawboost
+data/processed/ko_augmented/zeroth_169_003_2185_aug.wav,ko,bonafide,real,-,zeroth_169,zeroth_korean,해 공군및 해병대 특수부대들을 통합 관리하는 통합특수전사령부 예하 병력의 급증 때문이다,none
+data/processed/en_mlaad_augmented/poisoned_pen_10_f000193_aug.wav,en,spoof,tts,Chatterbox-Turbo,-,mlaad,,codec
+data/processed/en_mlaad_augmented/northandsouth_39_f000126_aug.wav,en,spoof,tts,kokoro,-,mlaad,,none
+data/processed/ko_mlaad_augmented/pink_fairy_book_16_f000124_aug.wav,ko,spoof,tts,OmniVoice,-,mlaad,,none
+data/processed/ko_augmented/zeroth_139_003_1186_aug.wav,ko,bonafide,real,-,zeroth_139,zeroth_korean,주민등록번호 관련 주무 부처인 행자부는 이에 대해 말을 아끼고 있다,none
+data/processed/ko_mlaad_augmented/silent_bullet_10_f000062_aug.wav,ko,spoof,tts,tts_models_multilingual_multi-dataset_bark,-,mlaad,,rawboost
+data/processed/ko_augmented/zeroth_207_003_0424_aug.wav,ko,bonafide,real,-,zeroth_207,zeroth_korean,전두환 표창 자체를 가짜 뉴스라 규정한 것이 아니라 해당 표창이 오 열 여덟 광주민주화 운동 진압으로 받은 것이라는 일부 인사들의 주장을 가짜 뉴스라고 규정했다는 설명이다,none
+data/processed/en_augmented/LA_T_5340625_aug.wav,en,bonafide,real,-,LA_0093,asvspoof2019la,,rawboost
+data/processed/en_mlaad_augmented/northandsouth_27_f000096_aug.wav,en,spoof,tts,tts_models_multilingual_multi-dataset_xtts_v2,-,mlaad,,rawboost+codec
+data/processed/ko_augmented/kss_01066_aug.wav,ko,bonafide,real,-,kss_speaker,kss,아들을 보고 싶은 마음이 간절합니다.,rawboost
+data/processed/en_mlaad_augmented/wives_and_daughters_08_f000173_aug.wav,en,spoof,tts,ElevenLabs-Turbo-v2.5,-,mlaad,,rawboost
+data/processed/ko_augmented/zeroth_119_003_2468_aug.wav,ko,bonafide,real,-,zeroth_119,zeroth_korean,경찰은 조만간 두 사람을 불러 정확한 사건 경위를 조사할 방침이다,rawboost
+data/processed/ko_mlaad_augmented/jane_eyre_17_f000067_aug.wav,ko,spoof,tts,OmniVoice,-,mlaad,,rawboost
+data/processed/ko_mlaad_augmented/northandsouth_38_f000229_aug.wav,ko,spoof,tts,Qwen3-TTS-12Hz-0.6B-Base,-,mlaad,,none
+data/processed/en_mlaad_augmented/wives_and_daughters_33_f000110_aug.wav,en,spoof,tts,Chatterbox,-,mlaad,,rawboost
+data/processed/en_augmented/LA_T_7490764_aug.wav,en,bonafide,real,-,LA_0089,asvspoof2019la,,rawboost
+data/processed/en_augmented/LA_T_8480400_aug.wav,en,bonafide,real,-,LA_0096,asvspoof2019la,,rawboost+codec
+data/processed/en_mlaad_augmented/silent_bullet_05_f000151_aug.wav,en,spoof,tts,GPT-SoVITS,-,mlaad,,rawboost
+data/processed/ko_mlaad_augmented/jane_eyre_21_f000044_aug.wav,ko,spoof,tts,OmniVoice,-,mlaad,,none
+data/processed/en_augmented/LA_T_4124430_aug.wav,en,bonafide,real,-,LA_0097,asvspoof2019la,,rawboost
+data/processed/ko_mlaad_augmented/silent_bullet_05_f000170_aug.wav,ko,spoof,tts,tts_models_multilingual_multi-dataset_bark,-,mlaad,,none
+data/processed/ko_mlaad_augmented/hunters_space_13_f000083_aug.wav,ko,spoof,tts,Fish-S2-Pro,-,mlaad,,rawboost+codec
+data/processed/en_augmented/LA_T_8448770_aug.wav,en,bonafide,real,-,LA_0091,asvspoof2019la,,rawboost+codec
+data/processed/en_mlaad_augmented/poisoned_pen_03_f000108_aug.wav,en,spoof,tts,GPT-SoVITS,-,mlaad,,codec
+data/processed/ko_augmented/zeroth_210_003_0855_aug.wav,ko,bonafide,real,-,zeroth_210,zeroth_korean,문 전 대표는 지지자 백 여명과 현장을 찾아 훼손 상황을 확인하고 전문가 의견을 청취했다,rawboost
+data/processed/en_augmented/LA_T_6405980_aug.wav,en,bonafide,real,-,LA_0079,asvspoof2019la,,none
+data/processed/en_mlaad_augmented/emerald_city_of_oz_20_f000056_aug.wav,en,spoof,tts,kokoro,-,mlaad,,rawboost+codec
+data/processed/ko_augmented/zeroth_133_003_2253_aug.wav,ko,bonafide,real,-,zeroth_133,zeroth_korean,전체 승부에선 알파고에 졌지만 오 국은 이세돌 구 단으로서 무한도전의 의미를 갖는 남다른 대국이다,rawboost
+data/processed/en_mlaad_augmented/jane_eyre_04_f000095_aug.wav,en,spoof,tts,Qwen3-TTS-12Hz-1.7B-Base,-,mlaad,,codec
+data/processed/ko_mlaad_augmented/silent_bullet_01_f000011_aug.wav,ko,spoof,tts,MOSS-TTS-1.7B,-,mlaad,,rawboost
+data/processed/en_augmented/LA_T_4860972_aug.wav,en,bonafide,real,-,LA_0087,asvspoof2019la,,none
+data/processed/en_mlaad_augmented/wives_and_daughters_23_f000132_aug.wav,en,spoof,tts,Chatterbox,-,mlaad,,rawboost
+data/processed/en_augmented/LA_T_9741234_aug.wav,en,bonafide,real,-,LA_0081,asvspoof2019la,,none
+data/processed/en_augmented/LA_T_5654988_aug.wav,en,bonafide,real,-,LA_0090,asvspoof2019la,,rawboost
+data/processed/ko_mlaad_augmented/jane_eyre_27_f000113_aug.wav,ko,spoof,tts,minimax_speech-02-turbo,-,mlaad,,rawboost
+data/processed/en_augmented/LA_T_9983805_aug.wav,en,bonafide,real,-,LA_0082,asvspoof2019la,,none
+data/processed/ko_augmented/zeroth_165_003_0230_aug.wav,ko,bonafide,real,-,zeroth_165,zeroth_korean,이 고사총은 대공용이 주임무지만 사람 특히 정적이나 정치범 등을 대상으로 한 것은 북한 외에는 없다는 것이 전문가들의 전언이다,none
+data/processed/ko_augmented/zeroth_113_003_1638_aug.wav,ko,bonafide,real,-,zeroth_113,zeroth_korean,네가 하루 이틀 정도 고민해 보고 나서 어떤 방법이 좋을지 그리고 왜 그렇게 생각하는지 함께 얘기해 볼까,rawboost
+data/processed/en_mlaad_augmented/northandsouth_39_f000015_aug.wav,en,spoof,tts,Chatterbox-Turbo,-,mlaad,,none
+data/processed/en_mlaad_augmented/wives_and_daughters_33_f000072_aug.wav,en,spoof,tts,minimax_speech-2.6-hd,-,mlaad,,none
+data/processed/ko_augmented/zeroth_178_003_2111_aug.wav,ko,bonafide,real,-,zeroth_178,zeroth_korean,이러한 관습에는 화합을 중시하는 카메룬의 문화가 스며 있습니다,codec
+data/processed/en_augmented/LA_T_3075213_aug.wav,en,spoof,tts,A01,LA_0094,asvspoof2019la,,rawboost
+data/processed/ko_mlaad_augmented/dorothy_and_wizard_oz_04_f000014_aug.wav,ko,spoof,tts,MOSS-TTS-1.7B,-,mlaad,,rawboost
+data/processed/ko_augmented/zeroth_213_003_2367_aug.wav,ko,bonafide,real,-,zeroth_213,zeroth_korean,육 일 통계청에 따르면 이천 십 사 년 기준 한국인의 여가 시간은 통계를 처음 내기 시작한 천 구백 구십 구 년보다 오히려 짧아졌다,none
+data/processed/en_mlaad_augmented/wives_and_daughters_31_f000109_aug.wav,en,spoof,tts,Chatterbox,-,mlaad,,none
+data/processed/en_augmented/LA_T_6144368_aug.wav,en,bonafide,real,-,LA_0089,asvspoof2019la,,none
+data/processed/ko_augmented/zeroth_191_003_2725_aug.wav,ko,bonafide,real,-,zeroth_191,zeroth_korean,소비자 입장에선 멀지 않은 곳에 다른 쇼핑 몰들도 많은데 이런 고액의 주차료를 내가며 롯데월드몰을 찾을 이유를 찾기는 쉽지 않다,rawboost
+data/processed/ko_augmented/zeroth_199_003_2384_aug.wav,ko,bonafide,real,-,zeroth_199,zeroth_korean,지금까지 브랜드 업체에서 가격폭리를 취했기 때문에 정말 교복에 거품이 많았습니다,rawboost
+data/processed/ko_mlaad_augmented/emerald_city_of_oz_26_f000099_aug.wav,ko,spoof,tts,Qwen3-TTS-12Hz-0.6B-Base,-,mlaad,,none
+data/processed/en_augmented/LA_T_5264471_aug.wav,en,bonafide,real,-,LA_0080,asvspoof2019la,,rawboost
+data/processed/ko_augmented/zeroth_180_003_0514_aug.wav,ko,bonafide,real,-,zeroth_180,zeroth_korean,북한에선 남녀 모두에게 책임을 묻고 피해자인 여성은 사회적으로 매장된다는 것이 탈북 여성들의 공통된 증언이다,rawboost
+data/processed/ko_mlaad_augmented/rinkitink_baum_06_64kb_f000050_aug.wav,ko,spoof,tts,MOSS-TTS-1.7B,-,mlaad,,none
+data/processed/en_mlaad_augmented/jane_eyre_11_f000120_aug.wav,en,spoof,tts,ElevenLabs-v2-Multilingual,-,mlaad,,codec
+data/processed/ko_augmented/zeroth_107_003_1282_aug.wav,ko,bonafide,real,-,zeroth_107,zeroth_korean,넣으면 고소한 향이 나지만 많이 끓이면 쓴맛이 날 수 있으니까 마지막에 살짝만 뿌려주세요,rawboost+codec
+data/processed/en_augmented/LA_T_7848595_aug.wav,en,bonafide,real,-,LA_0081,asvspoof2019la,,rawboost
+data/processed/en_mlaad_augmented/jane_eyre_22_f000058_aug.wav,en,spoof,tts,Chatterbox,-,mlaad,,rawboost+codec
+data/processed/en_mlaad_augmented/wives_and_daughters_36_f000079_aug.wav,en,spoof,tts,tts_models_multilingual_multi-dataset_xtts_v2,-,mlaad,,codec
+data/processed/ko_augmented/kss_08320_aug.wav,ko,bonafide,real,-,kss_speaker,kss,독서는 시간을 보내는 좋은 방법이다.,rawboost+codec
+data/processed/ko_augmented/kss_02743_aug.wav,ko,bonafide,real,-,kss_speaker,kss,코너에서 오른쪽으로 도세요.,codec
+data/processed/ko_mlaad_augmented/poisoned_pen_09_f000391_aug.wav,ko,spoof,tts,Higgs-Audio-V2,-,mlaad,,none
+data/processed/en_augmented/LA_T_6252972_aug.wav,en,bonafide,real,-,LA_0095,asvspoof2019la,,rawboost+codec
+data/processed/ko_augmented/zeroth_195_003_2322_aug.wav,ko,bonafide,real,-,zeroth_195,zeroth_korean,서울지검을 시작으로 법무부와 중앙지검 대검찰청 등에서 요직을 두루 걸쳤습니다,rawboost
+data/processed/ko_mlaad_augmented/the_master_key_05_f000002_aug.wav,ko,spoof,tts,tts_models_multilingual_multi-dataset_xtts_v2,-,mlaad,,none
+data/processed/ko_mlaad_augmented/jane_eyre_26_f000056_aug.wav,ko,spoof,tts,tts_models_multilingual_multi-dataset_bark,-,mlaad,,codec
+data/processed/en_mlaad_augmented/hunters_space_17_f000055_aug.wav,en,spoof,tts,GPT-SoVITS,-,mlaad,,none
+data/processed/en_augmented/LA_T_3127267_aug.wav,en,bonafide,real,-,LA_0085,asvspoof2019la,,codec
+data/processed/en_mlaad_augmented/ozma_of_oz_01_f000054_aug.wav,en,spoof,tts,Qwen3-TTS-12Hz-1.7B-Base,-,mlaad,,none
+data/processed/en_augmented/LA_T_6946670_aug.wav,en,bonafide,real,-,LA_0082,asvspoof2019la,,none
+data/processed/en_mlaad_augmented/midnight_passenger_07_f000146_aug.wav,en,spoof,tts,ElevenLabs-v3,-,mlaad,,codec
+data/processed/en_mlaad_augmented/midnight_passenger_07_f000060_aug.wav,en,spoof,tts,ElevenLabs-v3,-,mlaad,,rawboost+codec
+data/processed/ko_mlaad_augmented/piratesofersatz_05_leinster_64kb_f000026_aug.wav,ko,spoof,tts,minimax_speech-02-turbo,-,mlaad,,none
+data/processed/ko_augmented/zeroth_111_003_1824_aug.wav,ko,bonafide,real,-,zeroth_111,zeroth_korean,어떤 역사 기록이 정확한지는 흔히 관습 예절 이름 관리들의 칭호와 같은 세부적인 점을 통해 드러납니다,none
+data/processed/en_augmented/LA_T_2123366_aug.wav,en,bonafide,real,-,LA_0094,asvspoof2019la,,none
+data/processed/ko_augmented/kss_05208_aug.wav,ko,bonafide,real,-,kss_speaker,kss,저는 죄가 없어요.,none
+data/processed/ko_mlaad_augmented/pink_fairy_book_31_f000127_aug.wav,ko,spoof,tts,Qwen3-TTS-12Hz-1.7B-Base,-,mlaad,,rawboost
+data/processed/ko_augmented/zeroth_212_003_1982_aug.wav,ko,bonafide,real,-,zeroth_212,zeroth_korean,카카오 관계자는 장애의 범위와 원인을 확인하고 있다 고 말했다,rawboost
+data/processed/ko_augmented/zeroth_128_003_1415_aug.wav,ko,bonafide,real,-,zeroth_128,zeroth_korean,친노계파가 인사권 전횡을 할 수 없는 그런 보직을 줘서는 안 되구요,rawboost
+data/processed/ko_augmented/kss_07156_aug.wav,ko,bonafide,real,-,kss_speaker,kss,좀 적게 먹으려고 노력 중이야.,codec
+data/processed/ko_mlaad_augmented/skyisland_03_baum_64kb_f000019_aug.wav,ko,spoof,tts,OmniVoice,-,mlaad,,none
+data/processed/ko_augmented/kss_06112_aug.wav,ko,bonafide,real,-,kss_speaker,kss,올해 겨울은 이상하게 따뜻하다.,none
+data/processed/ko_mlaad_augmented/the_master_key_16_f000028_aug.wav,ko,spoof,tts,OmniVoice,-,mlaad,,codec
+data/processed/ko_mlaad_augmented/wives_and_daughters_29_f000078_aug.wav,ko,spoof,tts,Qwen3-TTS-12Hz-0.6B-Base,-,mlaad,,none
+data/processed/ko_augmented/zeroth_188_003_1264_aug.wav,ko,bonafide,real,-,zeroth_188,zeroth_korean,그런 공격을 했을 뿐만 아니라 공약이 여러 차례 바뀌었다,rawboost
+data/processed/ko_augmented/zeroth_159_003_2543_aug.wav,ko,bonafide,real,-,zeroth_159,zeroth_korean,국방부는 이 같은 조사내용을 십 일 발표하고 북 도발에 응당한 혹독한 대가를 치르게 할 것이라고 밝혔다,none
+data/processed/en_augmented/LA_T_6059767_aug.wav,en,bonafide,real,-,LA_0092,asvspoof2019la,,rawboost
+data/processed/ko_mlaad_augmented/pink_fairy_book_17_f000043_aug.wav,ko,spoof,tts,MOSS-TTS-1.7B,-,mlaad,,none
+data/processed/ko_augmented/zeroth_172_003_0554_aug.wav,ko,bonafide,real,-,zeroth_172,zeroth_korean,그리고 대다수 언중들이 이해하고 쓰는 말이 아닐 수도 있는 것 같아요,codec
+data/processed/en_augmented/LA_T_6654603_aug.wav,en,bonafide,real,-,LA_0092,asvspoof2019la,,codec
+data/processed/ko_augmented/zeroth_202_003_2758_aug.wav,ko,bonafide,real,-,zeroth_202,zeroth_korean,최씨 일가가 현재 보유한 건물과 토지를 담보로 하나은행에서 받은 대출은 열 한 건이다,none
+data/processed/ko_mlaad_augmented/dorothy_and_wizard_oz_11_f000092_aug.wav,ko,spoof,tts,MOSS-TTS-8B,-,mlaad,,rawboost
+data/processed/en_mlaad_augmented/jane_eyre_09_f000129_aug.wav,en,spoof,tts,Chatterbox-Turbo,-,mlaad,,none
+data/processed/en_augmented/LA_T_6099597_aug.wav,en,bonafide,real,-,LA_0097,asvspoof2019la,,codec
+data/processed/ko_augmented/zeroth_182_003_2529_aug.wav,ko,bonafide,real,-,zeroth_182,zeroth_korean,지시한 적도 없고 요구한 적도 없다며 선관위에서 낸 보도자료만 봤는데 거기엔 특정하게 이름이 명기돼 있지 않다,rawboost+codec
+data/processed/en_augmented/LA_T_5312236_aug.wav,en,bonafide,real,-,LA_0098,asvspoof2019la,,none
+data/processed/ko_augmented/zeroth_106_003_1401_aug.wav,ko,bonafide,real,-,zeroth_106,zeroth_korean,검찰 관계자는 십 칠 일 내부 기류는 기본적으로 구속영장 청구가 불가피하다는 인식이라고 말했다,none
+data/processed/en_augmented/LA_T_1429555_aug.wav,en,bonafide,real,-,LA_0091,asvspoof2019la,,none
+data/processed/en_mlaad_augmented/wives_and_daughters_55_f000176_aug.wav,en,spoof,tts,Higgs-Audio-V2,-,mlaad,,none
+data/processed/ko_augmented/zeroth_154_003_2010_aug.wav,ko,bonafide,real,-,zeroth_154,zeroth_korean,그리고 개성공단은 무슨 이유로든 빨리 재개하는 것이 맞거든요,rawboost
+data/processed/ko_augmented/zeroth_209_003_2021_aug.wav,ko,bonafide,real,-,zeroth_209,zeroth_korean,이 자리에는 이명박 정부 당시 장관을 지낸 정병국 주호영 의원 고흥길 진수희 전 의원과 대통령법무비서관 출신 권성동 의원 친이계 중진이던 최병국 이윤성 전 의원 등이 참석했다,rawboost
+data/processed/en_augmented/LA_T_1049021_aug.wav,en,bonafide,real,-,LA_0092,asvspoof2019la,,none
+data/processed/en_augmented/LA_T_1599278_aug.wav,en,bonafide,real,-,LA_0087,asvspoof2019la,,rawboost
+data/processed/ko_mlaad_augmented/wives_and_daughters_52_f000194_aug.wav,ko,spoof,tts,VoxCPM2,-,mlaad,,rawboost
+data/processed/ko_augmented/zeroth_199_003_2177_aug.wav,ko,bonafide,real,-,zeroth_199,zeroth_korean,법정관리를 불과 한 달 정도 앞둔 시기였지만 이런 결정이 내려질 거라는 예상은 전혀 하지 못했습니다,rawboost+codec
+data/processed/en_augmented/LA_T_4027900_aug.wav,en,bonafide,real,-,LA_0083,asvspoof2019la,,codec
+data/processed/en_augmented/LA_T_4484196_aug.wav,en,bonafide,real,-,LA_0090,asvspoof2019la,,codec
+data/processed/en_augmented/LA_T_2257126_aug.wav,en,bonafide,real,-,LA_0088,asvspoof2019la,,codec
+data/processed/ko_augmented/zeroth_133_003_1449_aug.wav,ko,bonafide,real,-,zeroth_133,zeroth_korean,그래서 천 구백 구십 사 년 말 즈음에 나도 운동을 시작했습니다,rawboost+codec
+data/processed/en_mlaad_augmented/northandsouth_05_f000190_aug.wav,en,spoof,tts,Chatterbox-Turbo,-,mlaad,,none
+data/processed/ko_mlaad_augmented/pink_fairy_book_22_f000056_aug.wav,ko,spoof,tts,tts_models_multilingual_multi-dataset_bark,-,mlaad,,none
+data/processed/ko_augmented/kss_06149_aug.wav,ko,bonafide,real,-,kss_speaker,kss,화성에는 생명의 흔적이 없었다.,none
+data/processed/en_mlaad_augmented/northandsouth_40_f000169_aug.wav,en,spoof,tts,Chatterbox-Turbo,-,mlaad,,none
+data/processed/en_augmented/LA_T_2709262_aug.wav,en,bonafide,real,-,LA_0083,asvspoof2019la,,none
+data/processed/en_augmented/LA_T_2542674_aug.wav,en,bonafide,real,-,LA_0097,asvspoof2019la,,none
+data/processed/ko_mlaad_augmented/silent_bullet_10_f000238_aug.wav,ko,spoof,tts,Fish-S2-Pro,-,mlaad,,none
+data/processed/ko_augmented/zeroth_152_from_zeroth_139_003_1047_aug.wav,ko,spoof,vc,rvc_zeroth_152,zeroth_152,rvc_from_zeroth_139,기자 계곡에 쌓인 눈이 얼어붙으면서 만들어진 거대한 얼음 동굴입니다,codec
+data/processed/en_mlaad_augmented/the_sea_fairies_05_f000009_aug.wav,en,spoof,tts,ElevenLabs-Turbo-v2.5,-,mlaad,,none
+data/processed/en_augmented/LA_T_3167085_aug.wav,en,bonafide,real,-,LA_0085,asvspoof2019la,,codec
+data/processed/ko_augmented/zeroth_215_003_0682_aug.wav,ko,bonafide,real,-,zeroth_215,zeroth_korean,담배를 끊으려고 노력하다가 다시 피우면 낙오자가 된 기분일 거야,rawboost+codec
+data/processed/ko_augmented/zeroth_151_003_0999_aug.wav,ko,bonafide,real,-,zeroth_151,zeroth_korean,그러면 연락을 받은 수취 은행에서 계좌 주인에게 전화를 걸어 돈을 돌려 달라고 요청한다,rawboost
+data/processed/en_augmented/LA_T_2269650_aug.wav,en,bonafide,real,-,LA_0094,asvspoof2019la,,codec
+data/processed/ko_mlaad_augmented/piratesofersatz_08_leinster_64kb_f000122_aug.wav,ko,spoof,tts,MOSS-TTS-1.7B,-,mlaad,,none
+data/processed/en_mlaad_augmented/hunters_space_12_f000014_aug.wav,en,spoof,tts,GPT-SoVITS,-,mlaad,,none
+data/processed/ko_augmented/zeroth_108_003_2726_aug.wav,ko,bonafide,real,-,zeroth_108,zeroth_korean,쏘나타의 지난달 판매량은 전월 대비 일 쩜 구 퍼센트 감소해 두 달 연속 하락세를 기록했다,rawboost+codec
+data/processed/ko_augmented/zeroth_214_003_0755_aug.wav,ko,bonafide,real,-,zeroth_214,zeroth_korean,국민에게 공약했던 국정 철학이 있고 정책적인 목표가 있으니까,rawboost
+data/processed/en_augmented/LA_T_3245402_aug.wav,en,spoof,tts,A01,LA_0097,asvspoof2019la,,rawboost
+data/processed/en_augmented/LA_T_8854115_aug.wav,en,bonafide,real,-,LA_0086,asvspoof2019la,,none
+data/processed/ko_mlaad_augmented/northandsouth_07_f000036_aug.wav,ko,spoof,tts,MOSS-TTS-8B,-,mlaad,,none
+data/processed/ko_mlaad_augmented/northandsouth_19_f000018_aug.wav,ko,spoof,tts,Qwen3-TTS-12Hz-0.6B-Base,-,mlaad,,none
+data/processed/ko_augmented/zeroth_152_from_zeroth_206_003_0970_aug.wav,ko,spoof,vc,rvc_zeroth_152,zeroth_152,rvc_from_zeroth_206,거미와 그 거미가 만들어 내는 강철만큼이나 튼튼한 거미줄은 우연의 산물입니까,rawboost
+data/processed/en_augmented/LA_T_4369654_aug.wav,en,bonafide,real,-,LA_0080,asvspoof2019la,,none
+data/processed/en_mlaad_augmented/piratesofersatz_04_leinster_64kb_f000080_aug.wav,en,spoof,tts,MOSS-TTS-8B,-,mlaad,,none
+data/processed/en_mlaad_augmented/the_master_key_04_f000025_aug.wav,en,spoof,tts,tts_models_multilingual_multi-dataset_xtts_v2,-,mlaad,,none
+data/processed/en_mlaad_augmented/pink_fairy_book_02_f000001_aug.wav,en,spoof,tts,minimax_speech-2.6-hd,-,mlaad,,codec
+data/processed/en_mlaad_augmented/wives_and_daughters_09_f000013_aug.wav,en,spoof,tts,minimax_speech-2.6-hd,-,mlaad,,rawboost
+data/processed/ko_augmented/zeroth_115_003_2391_aug.wav,ko,bonafide,real,-,zeroth_115,zeroth_korean,클라우디우스는 온몸이 피로 흠뻑 젖은 채 병원으로 옮겨졌습니다,rawboost+codec
+data/processed/ko_mlaad_augmented/jane_eyre_28_f000274_aug.wav,ko,spoof,tts,Higgs-Audio-V2,-,mlaad,,rawboost
+data/processed/ko_augmented/zeroth_125_003_1947_aug.wav,ko,bonafide,real,-,zeroth_125,zeroth_korean,동양인이기 때문에 받는 어쩔 수 없는 차별 같은 건 좀 있으셨나요,rawboost
+data/processed/en_mlaad_augmented/piratesofersatz_10_leinster_64kb_f000179_aug.wav,en,spoof,tts,ElevenLabs-v3,-,mlaad,,codec
+data/processed/ko_augmented/zeroth_178_003_2143_aug.wav,ko,bonafide,real,-,zeroth_178,zeroth_korean,지난달 이십 구 일 민노총 관계자들이 교대할 때 가 섞여 들어간 것이다,none
+data/processed/ko_mlaad_augmented/emerald_city_of_oz_29_f000022_aug.wav,ko,spoof,tts,tts_models_multilingual_multi-dataset_bark,-,mlaad,,rawboost+codec
+data/processed/en_augmented/LA_T_6271185_aug.wav,en,bonafide,real,-,LA_0088,asvspoof2019la,,codec
+data/processed/en_augmented/LA_T_3226167_aug.wav,en,bonafide,real,-,LA_0082,asvspoof2019la,,codec
+data/processed/en_augmented/LA_T_6439061_aug.wav,en,spoof,vc,A05,LA_0089,asvspoof2019la,,none
+data/processed/en_mlaad_augmented/midnight_passenger_15_f000084_aug.wav,en,spoof,tts,minimax_speech-2.6-hd,-,mlaad,,rawboost
+data/processed/ko_mlaad_augmented/jane_eyre_19_f000215_aug.wav,ko,spoof,tts,VoxCPM2,-,mlaad,,none
+data/processed/en_mlaad_augmented/pink_fairy_book_10_f000115_aug.wav,en,spoof,tts,Chatterbox,-,mlaad,,codec
+data/processed/en_mlaad_augmented/the_sea_fairies_09_f000072_aug.wav,en,spoof,tts,Qwen3-TTS-12Hz-1.7B-Base,-,mlaad,,rawboost
+data/processed/ko_augmented/zeroth_138_003_1103_aug.wav,ko,bonafide,real,-,zeroth_138,zeroth_korean,심 전 의원은 칠 월 십 삼 일 오전 열 한 시께 대구 수성구의 한 호텔에서 사십 대 여성을 성폭행한 혐의를 받아 왔다,rawboost
+data/processed/ko_mlaad_augmented/jane_eyre_34_f000313_aug.wav,ko,spoof,tts,Chatterbox Multilingual,-,mlaad,,none
+data/processed/en_augmented/LA_T_3365001_aug.wav,en,bonafide,real,-,LA_0085,asvspoof2019la,,none
+data/processed/en_augmented/LA_T_3008265_aug.wav,en,bonafide,real,-,LA_0093,asvspoof2019la,,none
+data/processed/ko_mlaad_augmented/ozma_of_oz_19_f000030_aug.wav,ko,spoof,tts,OmniVoice,-,mlaad,,none
+data/processed/en_augmented/LA_T_1467964_aug.wav,en,bonafide,real,-,LA_0096,asvspoof2019la,,rawboost
+data/processed/en_mlaad_augmented/jane_eyre_30_f000200_aug.wav,en,spoof,tts,Higgs-Audio-V2,-,mlaad,,codec
+data/processed/ko_augmented/zeroth_113_003_0352_aug.wav,ko,bonafide,real,-,zeroth_113,zeroth_korean,다른 지역에서는 그곳이 아무리 넓다 하더라도 푸야 라이몬디를 발견하기가 어려울 것입니다,rawboost
+data/processed/ko_mlaad_augmented/rinkitink_baum_06_64kb_f000030_aug.wav,ko,spoof,tts,VoxCPM2,-,mlaad,,rawboost
+data/processed/ko_mlaad_augmented/silent_bullet_04_f000221_aug.wav,ko,spoof,tts,Qwen3-TTS-12Hz-1.7B-Base,-,mlaad,,rawboost
+data/processed/en_mlaad_augmented/the_master_key_03_f000075_aug.wav,en,spoof,tts,ElevenLabs-v2-Multilingual,-,mlaad,,none
+data/processed/en_mlaad_augmented/midnight_passenger_15_f000164_aug.wav,en,spoof,tts,ElevenLabs-v2-Multilingual,-,mlaad,,none
+data/processed/en_mlaad_augmented/midnight_passenger_07_f000215_aug.wav,en,spoof,tts,GPT-SoVITS,-,mlaad,,rawboost
+data/processed/ko_mlaad_augmented/poisoned_pen_10_f000136_aug.wav,ko,spoof,tts,Qwen3-TTS-12Hz-1.7B-Base,-,mlaad,,rawboost
+data/processed/ko_augmented/kss_06034_aug.wav,ko,spoof,tts,mms-tts-kor,vits_default,kss_transcript,오늘 저녁 비가 올 확률이 60퍼센트입니다.,none
+data/processed/en_augmented/LA_T_3197627_aug.wav,en,bonafide,real,-,LA_0085,asvspoof2019la,,none
+data/processed/en_augmented/LA_T_5544402_aug.wav,en,bonafide,real,-,LA_0086,asvspoof2019la,,none
+data/processed/en_augmented/LA_T_3877261_aug.wav,en,bonafide,real,-,LA_0080,asvspoof2019la,,rawboost
+data/processed/ko_augmented/zeroth_173_003_1401_aug.wav,ko,bonafide,real,-,zeroth_173,zeroth_korean,검찰 관계자는 십 칠 일 내부 기류는 기본적으로 구속영장 청구가 불가피하다는 인식이라고 말했다,none
+data/processed/en_mlaad_augmented/pink_fairy_book_37_f000056_aug.wav,en,spoof,tts,kokoro,-,mlaad,,none
+data/processed/en_mlaad_augmented/the_sea_fairies_01_f000097_aug.wav,en,spoof,tts,minimax_speech-2.6-hd,-,mlaad,,rawboost+codec
+data/processed/ko_mlaad_augmented/pink_fairy_book_34_f000031_aug.wav,ko,spoof,tts,VoxCPM2,-,mlaad,,rawboost
+data/processed/en_mlaad_augmented/northandsouth_15_f000067_aug.wav,en,spoof,tts,minimax_speech-2.6-hd,-,mlaad,,rawboost
+data/processed/ko_augmented/zeroth_217_003_1490_aug.wav,ko,bonafide,real,-,zeroth_217,zeroth_korean,임화섭 특파원 미국 내브래스카주 오마하의 동물원에 만취한 여성이 몰래 들어갔다가 호랑이에 물렸다,codec
+data/processed/en_mlaad_augmented/jane_eyre_34_f000337_aug.wav,en,spoof,tts,MOSS-TTS-8B,-,mlaad,,codec
+data/processed/en_augmented/LA_T_4511853_aug.wav,en,bonafide,real,-,LA_0093,asvspoof2019la,,codec
+data/processed/en_mlaad_augmented/rinkitink_baum_01_64kb_f000047_aug.wav,en,spoof,tts,Chatterbox-Turbo,-,mlaad,,codec
+data/processed/en_augmented/LA_T_8289751_aug.wav,en,bonafide,real,-,LA_0091,asvspoof2019la,,rawboost
+data/processed/en_augmented/LA_T_6721654_aug.wav,en,bonafide,real,-,LA_0079,asvspoof2019la,,none
+data/processed/ko_augmented/kss_11422_aug.wav,ko,bonafide,real,-,kss_speaker,kss,이 냉장고의 판매 가격은 얼마예요?,none
+data/processed/ko_mlaad_augmented/ozma_of_oz_02_f000051_aug.wav,ko,spoof,tts,VoxCPM2,-,mlaad,,codec
+data/processed/en_mlaad_augmented/northandsouth_18_f000033_aug.wav,en,spoof,tts,MOSS-TTS-8B,-,mlaad,,rawboost
+data/processed/en_mlaad_augmented/wives_and_daughters_53_f000045_aug.wav,en,spoof,tts,ElevenLabs-Turbo-v2.5,-,mlaad,,rawboost+codec
+data/processed/ko_augmented/zeroth_139_003_1047_aug.wav,ko,bonafide,real,-,zeroth_139,zeroth_korean,기자 계곡에 쌓인 눈이 얼어붙으면서 만들어진 거대한 얼음 동굴입니다,none
+data/processed/ko_mlaad_augmented/northandsouth_21_f000116_aug.wav,ko,spoof,tts,MOSS-TTS-8B,-,mlaad,,rawboost
+data/processed/en_mlaad_augmented/rinkitink_baum_04_64kb_f000031_aug.wav,en,spoof,tts,ElevenLabs-v3,-,mlaad,,rawboost
+data/processed/ko_augmented/zeroth_196_003_2827_aug.wav,ko,bonafide,real,-,zeroth_196,zeroth_korean,내가 지원하는 회사에서 어떤 사업을 하고 있는지 내가 하고 싶은 일에 대하여 얼마나 이해하고 있는지에 대해 분명한 입장을 가진 지원자가 높은 점수를 받는다,rawboost
+data/processed/en_mlaad_augmented/wives_and_daughters_29_f000198_aug.wav,en,spoof,tts,GPT-SoVITS,-,mlaad,,codec
+data/processed/en_mlaad_augmented/jane_eyre_04_f000304_aug.wav,en,spoof,tts,ElevenLabs-v2-Multilingual,-,mlaad,,none
+data/processed/en_augmented/LA_T_8974364_aug.wav,en,bonafide,real,-,LA_0085,asvspoof2019la,,none
+data/processed/en_augmented/LA_T_8180259_aug.wav,en,bonafide,real,-,LA_0081,asvspoof2019la,,rawboost+codec
+data/processed/en_augmented/LA_T_1853533_aug.wav,en,bonafide,real,-,LA_0092,asvspoof2019la,,rawboost
+data/processed/ko_mlaad_augmented/midnight_passenger_08_f000218_aug.wav,ko,spoof,tts,Chatterbox Multilingual,-,mlaad,,rawboost+codec
+data/processed/ko_mlaad_augmented/rinkitink_baum_06_64kb_f000059_aug.wav,ko,spoof,tts,minimax_speech-02-turbo,-,mlaad,,codec
+data/processed/en_mlaad_augmented/jane_eyre_17_f000292_aug.wav,en,spoof,tts,minimax_speech-2.6-hd,-,mlaad,,rawboost
+data/processed/ko_augmented/zeroth_117_003_1208_aug.wav,ko,bonafide,real,-,zeroth_117,zeroth_korean,이런 모독적인 발언은 오히려 헌재 재판관들이 대통령 파면 쪽으로 마음을 굳히는 데 결정적인 역할을 한 것으로 알려졌다,rawboost+codec
+data/processed/en_mlaad_augmented/dorothy_and_wizard_oz_09_f000103_aug.wav,en,spoof,tts,GPT-SoVITS,-,mlaad,,codec
+data/processed/en_mlaad_augmented/poisoned_pen_09_f000220_aug.wav,en,spoof,tts,GPT-SoVITS,-,mlaad,,rawboost
+data/processed/ko_augmented/kss_00892_aug.wav,ko,spoof,tts,mms-tts-kor,vits_default,kss_transcript,의사 선생님이 운동을 시작하라고 하셨다.,rawboost
+data/processed/ko_mlaad_augmented/jane_eyre_31_f000143_aug.wav,ko,spoof,tts,tts_models_multilingual_multi-dataset_bark,-,mlaad,,rawboost
+data/processed/en_augmented/LA_T_5521272_aug.wav,en,bonafide,real,-,LA_0079,asvspoof2019la,,none
+data/processed/ko_augmented/zeroth_169_003_1314_aug.wav,ko,bonafide,real,-,zeroth_169,zeroth_korean,항해를 지휘하는 선교에서 두 주만 더 경험을 쌓으면 된다고 말하자 그는 내가 이집트의 포트사이드로 항해하도록 마련해 주었습니다,rawboost
+data/processed/ko_mlaad_augmented/silent_bullet_07_f000239_aug.wav,ko,spoof,tts,Qwen3-TTS-12Hz-0.6B-Base,-,mlaad,,rawboost+codec
+data/processed/en_mlaad_augmented/pink_fairy_book_38_f000110_aug.wav,en,spoof,tts,ElevenLabs-v2-Multilingual,-,mlaad,,rawboost
+data/processed/en_mlaad_augmented/the_master_key_20_f000091_aug.wav,en,spoof,tts,tts_models_multilingual_multi-dataset_xtts_v2,-,mlaad,,rawboost+codec
+data/processed/ko_augmented/zeroth_198_003_0290_aug.wav,ko,bonafide,real,-,zeroth_198,zeroth_korean,그러나 사건 이후 지금까지 다섯 개월여간 마을 행사와 모임이 전혀 없었다,rawboost
+data/processed/en_mlaad_augmented/wives_and_daughters_53_f000107_aug.wav,en,spoof,tts,ElevenLabs-v2-Multilingual,-,mlaad,,codec
+data/processed/en_augmented/LA_T_4060418_aug.wav,en,bonafide,real,-,LA_0094,asvspoof2019la,,none
+data/processed/en_augmented/LA_T_4345283_aug.wav,en,bonafide,real,-,LA_0084,asvspoof2019la,,rawboost
+data/processed/ko_mlaad_augmented/the_sea_fairies_01_f000055_aug.wav,ko,spoof,tts,minimax_speech-02-turbo,-,mlaad,,codec
+data/processed/en_augmented/LA_T_9331433_aug.wav,en,bonafide,real,-,LA_0098,asvspoof2019la,,rawboost
+data/processed/ko_mlaad_augmented/piratesofersatz_06_leinster_64kb_f000043_aug.wav,ko,spoof,tts,Fish-S2-Pro,-,mlaad,,rawboost+codec
+data/processed/en_augmented/LA_T_5410799_aug.wav,en,bonafide,real,-,LA_0094,asvspoof2019la,,rawboost

@@ -1,0 +1,29 @@
+.env
+.venv/
+*.pyc
+__pycache__/
+data/raw/
+data/generated/
+data/augmented/
+data/output_smoketest/
+models/
+third_party/
+*.zip
+*.tar.gz
+.conda/
+
+# 대용량 오디오/체크포인트 산출물 — 코드/메타데이터(csv, jsonl)만 커밋하고
+# 실제 wav/모델 가중치는 제외(수십~수백 GB, GitHub에 올릴 대상이 아님)
+data/processed/
+data/rvc_train_src/
+data/test/
+submit_ko/model/
+submit_en/model/
+submit_koen/model/
+submit_koen_v2/model/
+submit_final_koen_v2/model/
+submit_spectttra/model/
+submit_spectttra_ft/model/
+baseline_submit/model/
+submissions/
+submit_test.zip

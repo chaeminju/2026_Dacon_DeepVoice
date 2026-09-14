@@ -1,0 +1,14 @@
+vocal(fake) pool=2400, backing-track source(AI music) pool=978
+  25/200 생성됨
+  50/200 생성됨
+  75/200 생성됨
+  100/200 생성됨
+  125/200 생성됨
+  150/200 생성됨
+  175/200 생성됨
+  200/200 생성됨
+load_metadata: 6625개 레코드 로드 (manifests/case_metadata_train.jsonl)
+save_metadata: 6795개 레코드 저장 -> manifests/case_metadata_train.jsonl
+load_metadata: 1885개 레코드 로드 (manifests/case_metadata_val.jsonl)
+save_metadata: 1915개 레코드 저장 -> manifests/case_metadata_val.jsonl
+H_hybrid_composed: 총 200개 생성 -> manifests/case_metadata_train.jsonl / manifests/case_metadata_val.jsonl에 병합됨
