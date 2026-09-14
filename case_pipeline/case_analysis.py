@@ -38,6 +38,7 @@ from typing import Any, Iterable, Optional
 
 import numpy as np
 import pandas as pd
+import torch
 from sklearn.metrics import accuracy_score, f1_score, roc_auc_score, roc_curve
 from torch.utils.data import DataLoader, Dataset
 from tqdm import tqdm
@@ -550,6 +551,17 @@ class PANNsPresenceModel:
     def predict_presence(self, audio, kind: str):
         indices = self.voice_indices if kind == "voice" else self.music_indices
         return self._pipeline.predict_presence(self.model, indices, audio)
+
+    @property
+    def raw_model(self):
+        """실제 학습 가능한 Cnn14. `self.model`이 GPU에서는
+        `panns_inference.AudioTagging`이 내부적으로 `torch.nn.DataParallel`로
+        감싸므로(`AudioTagging.__init__` 참고), 이 프로퍼티가 그 래핑을 항상
+        벗겨서 반환한다 — 안 벗기고 `.state_dict()`를 저장하면 키에 "module."
+        접두어가 붙어서, 나중에 순정 Cnn14(AudioTagging이 새로 만드는 것)에
+        다시 로드할 때 키 불일치 에러가 난다(실제로 한 번 겪은 버그)."""
+        m = self.model.model
+        return m.module if isinstance(m, torch.nn.DataParallel) else m
 
 
 class DFArenaVoiceModel:

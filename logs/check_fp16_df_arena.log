@@ -1,0 +1,6 @@
+trainable params: 172,547,845 / 1,147,845,253
+load_metadata: 2140개 레코드 로드 (manifests/case_metadata_val.jsonl)
+DF-Arena fp16 점검: voice val 250개
+  fp32: EER=0.0600 F1=0.7607 Accuracy=0.6880
+  fp16: EER=0.0640 F1=0.7584 Accuracy=0.6840
+  샘플별 점수 최대 절대오차: 0.0162

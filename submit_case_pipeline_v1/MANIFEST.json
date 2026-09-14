@@ -1,0 +1,41 @@
+{
+  "built_at": "2026-09-14T07:15:13.217298+00:00",
+  "git_commit": "8922bdc",
+  "base_template": "submit_final_koen_v2",
+  "pipeline_architecture": "HTDemucs(분리, 1회) -> PANNs(voice_audio), PANNs(music_audio) -> DF-Arena(voice_audio)=VOICE_FAKE_PROB, SpecTTTra(music_audio)=MUSIC_FAKE_PROB",
+  "models": {
+    "htdemucs": {
+      "source": "submit_final_koen_v2/model/htdemucs (원본, 이번 세션에서 파인튜닝 안 함)",
+      "finetuned": false
+    },
+    "df_arena_voice": {
+      "source": "data/processed/df_arena_case_pipeline_v1_fp16",
+      "dtype": "fp16",
+      "finetuned": true,
+      "training_data": "manifests/case_metadata_train.jsonl (voice_label 있는 레코드, A~E + H_hybrid_composed voice 관점)",
+      "val_metrics_fp32_source": {
+        "note": "fp16 변환 전 fp32 기준 iteration 3 case_performance_iter3.csv 참고"
+      },
+      "fp16_validation": "check_fp16_conversion.py --target df_arena (250 샘플): EER 0.0600->0.0640, 최대 절대오차 0.0162 (안전)"
+    },
+    "spectttra_music": {
+      "source": "data/processed/spectttra_case_pipeline_v1",
+      "dtype": "fp32",
+      "finetuned": true,
+      "training_data": "manifests/case_metadata_train.jsonl (music_label 있는 레코드, G_full_ai_music + H_hybrid_composed music 관점)"
+    },
+    "panns_presence": {
+      "source": "data/processed/panns_case_pipeline_v2/Cnn14_finetuned.pth",
+      "dtype": "fp32",
+      "finetuned": true,
+      "note": "이번 세션에서 처음 파인튜닝 가중치를 제출본에 반영 (fc_audioset 분류 헤드만 재학습, 백본 고정)",
+      "training_data": "manifests/case_metadata_train.jsonl (I_bgm_evasion 레코드, HTDemucs로 분리한 voice_audio/music_audio 각각)",
+      "fp16_validation": "check_fp16_conversion.py --target panns: NaN 발생, fp16 변환 포기하고 fp32 유지"
+    }
+  },
+  "val_performance_iteration3": "case_performance_iter3.csv (val n=2,140) 참고 — 9개 케이스 전부 iteration 1(제로샷) 대비 개선, D_partial_splice EER 0.297->0.045, H_hybrid_composed(music) EER 0.286->0.158, I_bgm_evasion voice presence_auc 0.632->0.869",
+  "known_limitations": [
+    "F_ai_cover_song: 매핑 가능한 데이터가 없어 이번 재학습에 반영되지 않음(제로샷 그대로)",
+    "로컬 val 개선이 실제 Dacon 리더보드로 이어지는지는 업로드해서 확인 필요(과거 v1/v2 EER 사례처럼 val-리더보드 괴리가 있었던 전례 있음)"
+  ]
+}

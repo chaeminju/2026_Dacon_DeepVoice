@@ -630,13 +630,55 @@ H_hybrid_composed(music) — 원래 identify_weak_cases가 찍었던 두 약점 
   (iteration 3, 라벨 버그 수정된 데이터로 학습된 버전 — v1은 버려짐)
 - `case_performance_iter3.csv`, `experiment_log.csv`(iteration 1~3 전체 이력)
 
+## M10-6단계: iteration 3 결과 제출 패키징 (2026-09-14)
+
+GitHub 업로드 후, 사용자가 제출 전 체크리스트 3가지(①PANNs fp16 안전성
+②버전 태그 추적 ③로컬 end-to-end 테스트)를 요청 — 순서대로 실행.
+
+### ① PANNs fp16 — 위험 발견, fp32 유지로 결정
+`case_pipeline/check_fp16_conversion.py` 신규 작성해 fp32/fp16을 같은
+val 데이터로 나란히 비교:
+- **PANNs**: fp16 캐스팅 시 **NaN 발생**(Cnn14 내부 STFT/log-mel 추출,
+  BatchNorm이 raw fp16과 안 맞는 것으로 추정 — HF Transformer와 달리
+  신호처리 레이어가 섞여 있어 리스크가 큼, 사용자가 미리 경고했던 부분).
+  용량 이득도 313MB→ 절반 수준으로 크지 않아 **fp32 그대로 유지 결정**.
+- **DF-Arena**: fp16 안전 확인(250 val 샘플, EER 0.0600→0.0640, 최대
+  절대오차 0.0162) — 지난 세션 전례와 일치. **fp16 적용**
+  (`data/processed/df_arena_case_pipeline_v1_fp16`, 4.59GB→2.2GB).
+
+### ② 버전 태그 — MANIFEST.json
+`inference/build_submission_case_pipeline.py` 신규 작성(`build_submission_
+final.py`를 확장, `submit_final_koen_v2/`를 베이스 템플릿으로 재사용).
+DF-Arena(fp16)+SpecTTTra+PANNs(fp32) 3개 전부 이번 세션 결과로 교체하고,
+`submit_case_pipeline_v1/model/MANIFEST.json`에 각 모델의 출처 경로/dtype/
+학습 데이터 범위/fp16 검증 결과/git commit 해시/알려진 한계(F 미반영 등)를
+기록.
+
+### ③ 로컬 end-to-end 테스트 — 버그 1개 더 발견·수정
+첫 실행에서 **`RuntimeError: Missing/Unexpected key(s)... "module." 접두어`**
+로 크래시. 원인: `panns_inference.AudioTagging.__init__`이 GPU에서
+`self.model = torch.nn.DataParallel(self.model)`로 감싸는데, PANNs 헤드
+재학습 후 체크포인트 저장 시 이 래핑을 안 벗기고 `state_dict()`를 저장해서
+키에 `module.`이 붙어버림 — 새 `AudioTagging` 인스턴스(래핑 안 된 순정
+Cnn14)에 다시 로드할 때 키 불일치. `case_analysis.PANNsPresenceModel`에
+`raw_model` 프로퍼티를 추가해 DataParallel 래핑을 항상 벗겨서 반환하도록
+수정하고, `retrain_pipeline.py`/`check_fp16_conversion.py`의 모든
+`panns_model.model.model` 참조를 `panns_model.raw_model`로 교체. 저장된
+체크포인트 파일도 `module.` 접두어를 벗겨서 in-place 수정. 재실행 후 로컬
+샘플 3개 정상 출력(5개 컬럼, NaN 없음) 확인.
+
+### 최종 산출물
+- **`submissions/submission_case_pipeline_v1.zip`** — 비압축 2.78GB,
+  압축 2.04GB (10GB 한도 대비 여유 큼)
+- 구성: HTDemucs(원본) + PANNs(fp32, 파인튜닝 — **이번이 첫 반영**) +
+  DF-Arena(fp16, 파인튜닝) + SpecTTTra(fp32, 파인튜닝)
+- `submit_case_pipeline_v1/model/MANIFEST.json`에 전체 이력 기록됨
+
 ## 다음
-1. `submissions/`에 있는 기존 제출본들은 아직 이번 재학습 결과로 안 바뀜 —
-   실제 데이콘 제출용으로 채택하려면 `inference/build_submission_final.py`
-   패턴으로 voice=df_arena_case_pipeline_v1, music=spectttra_case_pipeline_v1,
-   presence=panns_case_pipeline_v2 세 가중치를 넣어 새 zip 패키징 필요
-   (사용자 결정 필요 — 로컬 val 개선이 실제 리더보드로 이어지는지는 업로드
-   해봐야 확실함, 과거 v1/v2 EER 사례처럼).
+1. **사용자가 `submissions/submission_case_pipeline_v1.zip`을 데이콘에
+   업로드**해 실제 리더보드 점수 확인 필요(로컬 val 개선이 리더보드로
+   이어지는지는 업로드해야 확실함 — 과거 v1/v2 EER 사례처럼 괴리가 있었던
+   전례 있음).
 2. F_ai_cover_song은 유일하게 자체 합성이 불가능한 케이스(보유 음성 자산이
    전부 "말하기"라 가창 원천이 없음) — SingFake/CtrSVDD 실제 다운로드 여부를
    사용자와 상의 필요(HF 접근 승인이 필요할 수 있음, 이전 MLAAD 때처럼).

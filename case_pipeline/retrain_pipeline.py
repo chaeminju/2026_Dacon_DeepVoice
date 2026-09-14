@@ -383,7 +383,7 @@ def finetune_presence_head(
     """
     # panns_model.model은 panns_inference.AudioTagging 래퍼 객체이고, 실제
     # 학습 가능한 nn.Module(Cnn14, fc_audioset 포함)은 그 안의 .model 속성.
-    model = panns_model.model.model
+    model = panns_model.raw_model
     device = device or next(model.parameters()).device
 
     for name, p in model.named_parameters():
@@ -544,7 +544,7 @@ def main():
         finetune_presence_head(panns_model, records, htdemucs_model=htdemucs_model, device=device, audio_root=args.audio_root)
         if args.panns_out_path:
             Path(args.panns_out_path).parent.mkdir(parents=True, exist_ok=True)
-            torch.save({"model": panns_model.model.model.state_dict()}, args.panns_out_path)
+            torch.save({"model": panns_model.raw_model.state_dict()}, args.panns_out_path)
             print(f"panns_model 저장 -> {args.panns_out_path}")
 
     if val_records is not None:

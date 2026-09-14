@@ -17,13 +17,7 @@ third_party/
 data/processed/
 data/rvc_train_src/
 data/test/
-submit_ko/model/
-submit_en/model/
-submit_koen/model/
-submit_koen_v2/model/
-submit_final_koen_v2/model/
-submit_spectttra/model/
-submit_spectttra_ft/model/
+submit_*/model/
 baseline_submit/model/
 submissions/
 submit_test.zip
