@@ -21,3 +21,6 @@ submit_*/model/
 baseline_submit/model/
 submissions/
 submit_test.zip
+checkpoints/
+logs/
+combo_experiment/
