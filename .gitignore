@@ -1,0 +1,11 @@
+data/
+analysis/external_data/
+*.bin
+*.pth
+*.th
+*.safetensors
+*.csv
+*.h5
+*.png
+*.pyc
+*.zip

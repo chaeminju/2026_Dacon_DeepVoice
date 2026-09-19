@@ -1,0 +1,15 @@
+DF-Arena 1B (fine-tuned)
+- Source: finetuning_data/koenmx.zip -> model/df_arena_1b (built 2026-09-14T11:47:24Z)
+- Base model: Speech-Arena-2025/DF_Arena_1B_V_1 (see baseline_submit/model/MODEL_INFO.txt)
+- Fine-tuning data: manifests_v2/koen_train.csv (KO+EN mix, real 992 : fake 992, balanced)
+- Evidence: submission_koen.zip leaderboard Score 0.7125 (best confirmed so far)
+- Code (modeling_antispoofing.py, backbone.py, configuration_antispoofing.py, conformer.py,
+  feature_extraction_antispoofing.py, pipeline_antispoofing.py) is byte-identical to the
+  zero-shot baseline; only the weights (model.safetensors) and config.json differ.
+- Local directory: df_arena_1b
+
+HTDemucs (zero-shot, shared with baseline_submit)
+- Symlinked to ../../baseline_submit/model/htdemucs
+
+PANNs Cnn14 (zero-shot, shared with baseline_submit)
+- Symlinked to ../../baseline_submit/model/panns
