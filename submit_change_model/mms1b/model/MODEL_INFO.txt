@@ -1,0 +1,46 @@
+AntiDeepfake MMS-1B (zero-shot, fp32) -> antideepfake_mms1b (voice fake 판별, DF-Arena 1B 대체)
+- Source: nii-yamagishilab/mms-1b-anti-deepfake (CC BY-NC-SA 4.0), model.safetensors 3.86GB fp32
+- 구조: MMS-1B(wav2vec2, 48 layer, 1280 dim) + 평균풀링 + FC(1280->2), 출력 [fake, real]
+- 로딩: fairseq 키를 HF Wav2Vec2Model로 매핑 (detector.py, XLS-R-2B 버전과 동일 코드)
+- 실험 목적: koenmx(0.7186)에서 voice 판별 모델만 교체해 단일 변수 비교. 나머지는 koenmx와 동일.
+- Local directory: antideepfake_mms1b
+
+HTDemucs
+- Model: htdemucs (955717e8-8726e21a)
+- Local directory: htdemucs
+- submit_koen/model/htdemucs에서 복사 (원본 체크포인트 그대로, 변경 없음)
+
+PANNs Cnn14
+- Checkpoint: Cnn14_mAP=0.431.pth
+- Local directory: panns
+- submit_koen/model/panns에서 복사 (원본 체크포인트 그대로, 변경 없음)
+
+SpecTTTra (신규)
+- Source: awsaf49/sonics-spectttra-gamma-5s
+- Revision: a349d427b681fa15e3d0e22d1708108322f967b1
+- Variant: SpecTTTra-γ, 5s 입력, num_classes=1 (sigmoid=spoof 확률)
+- Local directory: spectttra (config.json + pytorch_model.bin)
+- Vendored package: spectttra/sonics/ — awsaf49/sonics GitHub 저장소
+  (commit 9156ffad151f797c71556923c4a02fa01fa8fc91)의 sonics/ 패키지만
+  추론용으로 복사, 두 군데 수정함:
+  1) layers/augment.py: 미사용 CutMix 클래스가 물고 있던 torchvision 최상단
+     import를 지연 import로 변경.
+  2) timm 의존성 제거 (2026-09-10, 실제 채점 서버 제출 오류로 발견):
+     timm은 setup.py상 torchvision을 필수로 선언하는데, requirements.txt에
+     timm을 넣고 pip install하면 torchvision이 딸려 설치되면서 그게 요구하는
+     특정 torch 버전에 맞추려고 pip가 채점 서버에 이미 CUDA용으로 빌드되어
+     있던 torch를 다른 버전으로 바꿔버렸다. 그 결과 기존 torchaudio 네이티브
+     라이브러리와 torch ABI가 어긋나
+     "OSError: Could not load this library: .../libtorchaudio.so"로 제출이
+     실패함(실제 재현/확인됨). 이 프로젝트가 쓰는 SpecTTTra 체크포인트는
+     ViT/timm 인코더 분기를 타지 않으므로, layers/transformer.py가 필요로
+     하는 Mlp/DropPath/use_fused_attn 세 개만 layers/_timm_compat.py로
+     로컬 복사하고(원본과 동일 구현, state_dict 키 이름도 동일 —
+     동일 입력·동일 가중치로 출력이 bit-identical함을 확인함), models/model.py·
+     models/__init__.py의 ViT/timm import를 실제로 그 분기를 탈 때만
+     실행되는 지연 import로 바꿨다. 그 결과 requirements.txt에서 timm을
+     완전히 뺐고(현재 matplotlib==3.9.2 하나뿐), timm/torchvision 없이도
+     정상 동작함을 import를 강제 차단한 상태로 재검증했다.
+- 다른 체크포인트(alpha-5s/beta-5s/120s 계열 등)로 교체해도 script.py는
+  config.json의 audio.sample_rate/max_len/normalize를 그대로 읽어 쓰므로
+  코드 수정 없이 동작한다.
